@@ -17,7 +17,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+  margin: 0;
+  padding: 0;
 }
 
 ol, ul{
@@ -95,6 +96,40 @@ a:focus {
 .container {
   margin: 0 auto;
   max-width: 800px;
+}
+
+/********************************************/
+/*   Form
+*********************************************/
+.js-form {
+  display: none;
+}
+
+.form {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+}
+
+.new-story {
+  font-family: Lato, Helvetica, Garamond, serif, sans-serif;
+}
+
+.form-label {
+  font-family: Lato, Helvetica, Garamond, serif, sans-serif;
+}
+
+.story-link:active,
+.story-link:hover,
+.story-link:focus{
+  color: #ff4081;
+}
+
+.story-link {
+  font-family: Lato, Helvetica, Garamond, serif, sans-serif;
+}
+
+.form-input {
+  border-radius: 3px;
 }
 
 /********************************************/

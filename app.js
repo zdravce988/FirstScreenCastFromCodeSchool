@@ -7,4 +7,7 @@ jQuery(document).ready(function() {
     event.preventDefault();
     $(this).text("Liked").closest('.news-item').addClass('is-liked');
   });
+  $('.story-link').on('click', function(event) {
+    $(this).closest('.subheader').find('.js-form').slideToggle();
+  });
 });
